@@ -160,7 +160,7 @@ BOOL InitWindow()
 	//Теперь создаем окна из 500 500 в центре десктопа
 	g_mainWnd = CreateWindow(L"Practika1", L"1", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
 		500, 500, 0, 0, g_hInstance, 0);
-	//Если окно не создано
+	//Если окно не создано 
 	if (!g_mainWnd)
 		return FALSE;
 	ShowWindow(g_mainWnd, g_nCmdShow);//Вызов окна
